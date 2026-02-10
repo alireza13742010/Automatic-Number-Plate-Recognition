@@ -4,7 +4,7 @@ This project provides a complete, user‑friendly License Plate Detection and Re
 The system includes a modern, responsive UI with customizable settings such as model selection, confidence thresholds, and frame‑skipping for faster video processing. Each detection is displayed with bounding boxes, confidence scores, cropped plate previews, and recognized text. The app also provides detailed summaries, including total detections and unique plate counts. This tool is ideal for researchers, developers, and practitioners working on intelligent transportation systems, surveillance, or automated monitoring, offering a flexible and extensible framework for license‑plate recognition tasks. 
 
 # UI for the application
-<img src="https://github.com/user-attachments/assets/3a974964-aab4-4b09-95d1-061613abf1eb" width="600" />
+<img src="https://github.com/user-attachments/assets/3a974964-aab4-4b09-95d1-061613abf1eb" width="800" />
 
 # Application Results
 <img src="https://github.com/user-attachments/assets/88166bf3-7582-4570-b04d-27420c277a8e" width="400" />
@@ -17,21 +17,21 @@ Follow these steps to set up and run the application locally:
 
 1. Clone the repository
 bash
-# git clone https://github.com/your-username/Automatic-Number-Plate-Recognition.git
+git clone https://github.com/your-username/Automatic-Number-Plate-Recognition.git
 
-# cd Automatic-Number-Plate-Recognition
+cd Automatic-Number-Plate-Recognition
 
 2. Create and activate a virtual environment (recommended)
 bash
-# python -m venv venv
+python -m venv venv
 
-# source venv/bin/activate   # Linux / macOS
+source venv/bin/activate   # Linux / macOS
 
-# venv\Scripts\activate      # Windows
+venv\Scripts\activate      # Windows
 
 3. Install dependencies
 bash
-# pip install -r requirements.txt
+pip install -r requirements.txt
 
 Make sure you have PyTorch installed with CUDA support if you plan to run on GPU.
 
@@ -45,7 +45,7 @@ Place your trained YOLO weights file (e.g., best.pt) in the project directory.
 
 bash
 
-# streamlit run app.py
+streamlit run app.py
 
 The application will open in your browser at:
 
