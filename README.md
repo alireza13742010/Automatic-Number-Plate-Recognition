@@ -17,27 +17,36 @@ Follow these steps to set up and run the application locally:
 
 1. Clone the repository
 bash
-git clone https://github.com/your-username/Automatic-Number-Plate-Recognition.git
-cd Automatic-Number-Plate-Recognition
+# git clone https://github.com/your-username/Automatic-Number-Plate-Recognition.git
+
+# cd Automatic-Number-Plate-Recognition
 
 2. Create and activate a virtual environment (recommended)
 bash
-python -m venv venv
-source venv/bin/activate   # Linux / macOS
-venv\Scripts\activate      # Windows
+# python -m venv venv
+
+# source venv/bin/activate   # Linux / macOS
+
+# venv\Scripts\activate      # Windows
 
 3. Install dependencies
 bash
-pip install -r requirements.txt
+# pip install -r requirements.txt
+
 Make sure you have PyTorch installed with CUDA support if you plan to run on GPU.
+
 You can install it from: https://pytorch.org/get-started/locally/ (pytorch.org in Bing)
 
 4. Download or place your YOLO weights
+
 Place your trained YOLO weights file (e.g., best.pt) in the project directory.
 
 5. Run the Streamlit app
+
 bash
-streamlit run app.py
+
+# streamlit run app.py
+
 The application will open in your browser at:
-Code
-http://localhost:8501
+
+Code: http://localhost:8501
