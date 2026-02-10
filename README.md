@@ -50,3 +50,6 @@ streamlit run app.py
 The application will open in your browser at:
 
 Code: http://localhost:8501
+
+# Contact us 
+Email: alireza.tavakol@ut.ac.ir
